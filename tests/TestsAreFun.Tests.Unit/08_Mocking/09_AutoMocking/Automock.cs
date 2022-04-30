@@ -1,6 +1,4 @@
-﻿using System;
-using AutoMoq;
-using TestsAreFun.AgeCalculator;
+﻿using TestsAreFun.AgeCalculator;
 
 namespace TestsAreFun.Tests.Unit._08_Mocking._09_AutoMocking;
 
