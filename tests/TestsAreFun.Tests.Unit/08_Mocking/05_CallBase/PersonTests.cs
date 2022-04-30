@@ -1,6 +1,6 @@
 ﻿using TestsAreFun.People;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._5_CallBase;
+namespace TestsAreFun.Tests.Unit._08_Mocking._05_CallBase;
 
 public class PersonTests
 {

@@ -2,7 +2,7 @@
 
 // ReSharper disable CommentTypo
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._0a_TestDoubles;
+namespace TestsAreFun.Tests.Unit._08_Mocking._00a_TestDoubles;
 
 public class TestDoubleTests
 {

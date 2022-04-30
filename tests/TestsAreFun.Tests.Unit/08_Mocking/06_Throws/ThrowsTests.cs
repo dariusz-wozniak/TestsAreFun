@@ -1,7 +1,7 @@
 ﻿using System;
 using TestsAreFun.Customer;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._6_Throws;
+namespace TestsAreFun.Tests.Unit._08_Mocking._06_Throws;
 
 public class ThrowsTests
 {

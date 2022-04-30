@@ -1,6 +1,6 @@
 using TestsAreFun.Customer;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._1_MoqMocks;
+namespace TestsAreFun.Tests.Unit._08_Mocking._01_MoqMocks;
 
 public class PropertyBehavior
 {

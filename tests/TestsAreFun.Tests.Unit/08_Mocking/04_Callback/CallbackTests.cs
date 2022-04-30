@@ -1,6 +1,6 @@
 ﻿using TestsAreFun.Customer;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._4_Callback;
+namespace TestsAreFun.Tests.Unit._08_Mocking._04_Callback;
 
 public class CallbackTests
 {

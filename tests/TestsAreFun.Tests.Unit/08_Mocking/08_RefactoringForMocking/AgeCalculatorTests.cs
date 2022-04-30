@@ -1,7 +1,7 @@
 ﻿using System;
 using TestsAreFun.AgeCalculator;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._8_RefactoringForMocking;
+namespace TestsAreFun.Tests.Unit._08_Mocking._08_RefactoringForMocking;
 
 public class AgeCalculatorTests
 {

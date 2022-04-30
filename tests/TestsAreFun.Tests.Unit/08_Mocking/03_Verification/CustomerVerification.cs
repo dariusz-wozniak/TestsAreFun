@@ -1,6 +1,6 @@
 ﻿using TestsAreFun.Customer;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._3_Verification;
+namespace TestsAreFun.Tests.Unit._08_Mocking._03_Verification;
 
 public class CustomerVerification
 {

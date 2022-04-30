@@ -1,6 +1,6 @@
 using Moq.Protected;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._7_Accessibility;
+namespace TestsAreFun.Tests.Unit._08_Mocking._07_Accessibility;
 
 public class AccessibilityTests
 {

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework.Constraints;
 using TestsAreFun.Customer;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._2_ArgumentMatching;
+namespace TestsAreFun.Tests.Unit._08_Mocking._02_ArgumentMatching;
 
 public class ArgumentMatchingTests
 {
