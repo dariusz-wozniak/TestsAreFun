@@ -1,4 +1,6 @@
-﻿namespace TestsAreFun.Tests.Unit._10_FluentAssertions;
+﻿using static FluentAssertions.AssertMultiple.AssertMultiple;
+
+namespace TestsAreFun.Tests.Unit._10_FluentAssertions;
 
 public class FluentAssertionTests
 {
@@ -7,7 +9,7 @@ public class FluentAssertionTests
     {
         const string firstName = "Kunegunda";
 
-        Assert.Multiple(() =>
+        Multiple(() =>
         {
             firstName.Should().Be("Kunegunda");
 
