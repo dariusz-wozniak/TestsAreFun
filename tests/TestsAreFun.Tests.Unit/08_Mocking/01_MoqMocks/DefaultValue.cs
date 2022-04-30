@@ -13,5 +13,6 @@ public class DefaultValue
         ICustomer customer = customerMock.Object;
 
         Assert.That(customer.FirstName, Is.EqualTo("Jason"));
+        Assert.That(customer.LastName, Is.EqualTo("Jason"));
     }
 }

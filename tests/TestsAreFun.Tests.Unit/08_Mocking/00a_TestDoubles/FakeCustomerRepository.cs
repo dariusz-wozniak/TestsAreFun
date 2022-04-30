@@ -1,6 +1,6 @@
 using TestsAreFun.TestDoubleCustomer;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._8_TestDoubles;
+namespace TestsAreFun.Tests.Unit._08_Mocking._0a_TestDoubles;
 
 internal class FakeCustomerRepository : ICustomerRepository
 {

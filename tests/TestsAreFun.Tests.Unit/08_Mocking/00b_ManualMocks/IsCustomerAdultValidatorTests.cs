@@ -1,6 +1,6 @@
 ﻿using TestsAreFun.Customer;
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._0_ManualMocks;
+namespace TestsAreFun.Tests.Unit._08_Mocking._0b_ManualMocks;
 
 public class IsCustomerAdultValidatorTests
 {

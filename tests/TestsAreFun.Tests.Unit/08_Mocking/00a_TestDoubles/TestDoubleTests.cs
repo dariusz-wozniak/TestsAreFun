@@ -1,7 +1,8 @@
 ﻿using TestsAreFun.TestDoubleCustomer;
+
 // ReSharper disable CommentTypo
 
-namespace TestsAreFun.Tests.Unit._08_Mocking._8_TestDoubles;
+namespace TestsAreFun.Tests.Unit._08_Mocking._0a_TestDoubles;
 
 public class TestDoubleTests
 {
