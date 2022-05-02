@@ -3,7 +3,6 @@ using Flurl;
 using Flurl.Http;
 using NUnit.Framework;
 using VerifyNUnit;
-using VerifyTests;
 using static TestsAreFun.Tests.Approval.Config;
 
 namespace TestsAreFun.Tests.Approval;
