@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Integrati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Specification.SpecFlow", "tests\TestsAreFun.Tests.Specification.SpecFlow\TestsAreFun.Tests.Specification.SpecFlow.csproj", "{EB4A4A04-9A8C-49A7-AD2D-51359636C797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAreFun.Tests.Specification.LoFu", "tests\TestsAreFun.Tests.Specification.LoFu\TestsAreFun.Tests.Specification.LoFu.csproj", "{1913ABBE-207E-4A04-84EA-BB2F7E6F878E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Specification.LoFu", "tests\TestsAreFun.Tests.Specification.LoFu\TestsAreFun.Tests.Specification.LoFu.csproj", "{1913ABBE-207E-4A04-84EA-BB2F7E6F878E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAreFun.Tests.Approval", "tests\TestsAreFun.Tests.Approval\TestsAreFun.Tests.Approval.csproj", "{287BC990-ECA1-4976-9499-70B69EC53815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Approval", "tests\TestsAreFun.Tests.Approval\TestsAreFun.Tests.Approval.csproj", "{287BC990-ECA1-4976-9499-70B69EC53815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAreFun.Tests.Acceptance", "tests\TestsAreFun.Tests.Acceptance\TestsAreFun.Tests.Acceptance.csproj", "{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{287BC990-ECA1-4976-9499-70B69EC53815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{287BC990-ECA1-4976-9499-70B69EC53815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{287BC990-ECA1-4976-9499-70B69EC53815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{EB4A4A04-9A8C-49A7-AD2D-51359636C797} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
 		{1913ABBE-207E-4A04-84EA-BB2F7E6F878E} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
 		{287BC990-ECA1-4976-9499-70B69EC53815} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
+		{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06C67646-94B6-4907-A49F-352D58033958}
