@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Darek\.nuget\packages\microsoft.playwright.nunit\1.21.0\contentFiles\any\netstandard2.0\nunit.engine.api.dll" />
+    <Content Remove="C:\Users\Darek\.nuget\packages\microsoft.playwright.nunit\1.21.0\contentFiles\any\netstandard2.0\nunit.engine.dll" />
+    <Content Remove="C:\Users\Darek\.nuget\packages\microsoft.playwright.nunit\1.21.0\contentFiles\any\netstandard2.0\NUnit3.TestAdapter.dll" />
+    <Content Remove="C:\Users\Darek\.nuget\packages\microsoft.playwright.nunit\1.21.0\contentFiles\any\netstandard2.0\NUnit3.TestAdapter.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Darek\.nuget\packages\nunit3testadapter\4.0.0\build\netcoreapp2.1\nunit.engine.api.dll" />
+    <None Remove="C:\Users\Darek\.nuget\packages\nunit3testadapter\4.0.0\build\netcoreapp2.1\nunit.engine.dll" />
+    <None Remove="C:\Users\Darek\.nuget\packages\nunit3testadapter\4.0.0\build\netcoreapp2.1\NUnit3.TestAdapter.dll" />
+    <None Remove="C:\Users\Darek\.nuget\packages\nunit3testadapter\4.0.0\build\netcoreapp2.1\NUnit3.TestAdapter.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.21.0" />
+    <PackageReference Include="Microsoft.Playwright.NUnit" Version="1.21.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
