@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.17.0" />
+    <PackageReference Include="Bogus" Version="34.0.2" />
     <PackageReference Include="dariusz-wozniak.AutoMoq" Version="2.1.1" />
     <PackageReference Include="FluentAssertions" Version="6.6.0" />
     <PackageReference Include="FluentAssertions.AssertMultiple" Version="0.0.4" />
