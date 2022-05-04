@@ -8,7 +8,6 @@ namespace TestsAreFun.Tests.Acceptance;
 public class Initialization
 {
     [OneTimeSetUp]
-    [Test]
     public async Task InitializeWithAuthorizationAsync()
     {
         await InstallPlaywright();

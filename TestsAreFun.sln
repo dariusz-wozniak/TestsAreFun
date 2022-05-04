@@ -19,9 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Specifica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Approval", "tests\TestsAreFun.Tests.Approval\TestsAreFun.Tests.Approval.csproj", "{287BC990-ECA1-4976-9499-70B69EC53815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAreFun.Tests.Acceptance", "tests\TestsAreFun.Tests.Acceptance\TestsAreFun.Tests.Acceptance.csproj", "{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Acceptance", "tests\TestsAreFun.Tests.Acceptance\TestsAreFun.Tests.Acceptance.csproj", "{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAreFun.Tests.Load", "tests\TestsAreFun.Tests.Load\TestsAreFun.Tests.Load.csproj", "{0C6B2787-015F-4AB6-9C36-9142B8B4CEF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsAreFun.Tests.Load", "tests\TestsAreFun.Tests.Load\TestsAreFun.Tests.Load.csproj", "{0C6B2787-015F-4AB6-9C36-9142B8B4CEF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{C1C2A1CB-5873-4659-B35D-29611A11D1CB}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{80CCA32C-1153-4D89-9621-530DC6004E21}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
