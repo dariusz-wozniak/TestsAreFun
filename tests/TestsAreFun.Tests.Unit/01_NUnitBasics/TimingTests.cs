@@ -25,7 +25,7 @@ public class TimingTests
     /// </summary>
     [Test]
     [Explicit]
-    [MaxTime(1000)]
+    [MaxTime(50)]
     public void max_time()
     {
         Thread.Sleep(1000);
