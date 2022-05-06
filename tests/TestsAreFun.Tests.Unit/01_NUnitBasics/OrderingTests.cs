@@ -2,6 +2,7 @@
 
 namespace TestsAreFun.Tests.Unit._01_NUnitBasics;
 
+[Parallelizable(ParallelScope.None)]
 public class OrderingTests
 {
     private List<string> _order;
