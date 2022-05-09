@@ -11,5 +11,5 @@ Welcome to the demo of different types of tests. The following table explains wh
 | Specification tests #2 | [LoFu](https://github.com/hlaueriksson/LoFuUnit)
 
 # Note
-- The repository is forked from https://github.com/dariusz-wozniak/TddBook-Code
+- The repository has been forked from https://github.com/dariusz-wozniak/TddBook-Code
 - ExcelDataReader is rather an obsolete library
