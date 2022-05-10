@@ -1,4 +1,4 @@
-Welcome to the demo of different types of tests. The following table explains what tests are included along with the used tools and pre-requisities to run tests.
+That's a sandbox / demo with bunch of different types of tests. The following table explains what tests are included along with the used tools and pre-requisities to run tests.
 
 | Tests type |  Tools  | Comments  |
 |---|---|---|
