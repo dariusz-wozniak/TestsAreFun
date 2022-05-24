@@ -21,5 +21,5 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - name: Tests: Unit
+    - name: Tests - Unit
       run: dotnet test --verbosity normal --no-build --filter "FullyQualifiedName~Tests.Unit&FullyQualifiedName!~Multitargeted"
