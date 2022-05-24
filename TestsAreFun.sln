@@ -34,6 +34,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAreFun.Tests.Unit.Multitargeted", "tests\TestsAreFun.Tests.Unit.Multitargeted\TestsAreFun.Tests.Unit.Multitargeted.csproj", "{BD5B19DB-6B65-4226-A1BC-5B2860D86071}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{0C6B2787-015F-4AB6-9C36-9142B8B4CEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C6B2787-015F-4AB6-9C36-9142B8B4CEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C6B2787-015F-4AB6-9C36-9142B8B4CEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5B19DB-6B65-4226-A1BC-5B2860D86071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5B19DB-6B65-4226-A1BC-5B2860D86071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5B19DB-6B65-4226-A1BC-5B2860D86071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5B19DB-6B65-4226-A1BC-5B2860D86071}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{287BC990-ECA1-4976-9499-70B69EC53815} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
 		{F7CFFA2A-ED44-41E3-AFB2-EE421C7E217D} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
 		{0C6B2787-015F-4AB6-9C36-9142B8B4CEF8} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
+		{BD5B19DB-6B65-4226-A1BC-5B2860D86071} = {3167F626-8540-4C8F-9FE4-5F7EC6D59D93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06C67646-94B6-4907-A49F-352D58033958}
