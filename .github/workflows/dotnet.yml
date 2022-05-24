@@ -31,4 +31,4 @@ jobs:
       with:
         name: Unit tests
         path: test-results.trx
-        reporter: jest-junit
+        reporter: dotnet-trx
