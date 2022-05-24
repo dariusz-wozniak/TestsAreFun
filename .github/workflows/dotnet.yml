@@ -18,10 +18,10 @@ jobs:
       with:
         dotnet-version: |
           6.0.x
-          2.1.x
+          5.0.x
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
     - name: Tests - Unit
-      run: dotnet test --verbosity normal --no-build --filter "FullyQualifiedName~Tests.Unit&FullyQualifiedName!~Multitargeted"
+      run: dotnet test --verbosity normal --no-build --filter "FullyQualifiedName~Tests.Unit"
