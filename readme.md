@@ -5,7 +5,6 @@ That's a sandbox with bunch of different types of tests. The following table exp
 | Tests type |  Tools  | Comments  |
 |---|---|---|
 |  Unit tests | [NUnit](https://nunit.org/)<br/>[Moq](https://github.com/moq/moq4)<br />[FluentAssertions](https://fluentassertions.com/)<br />[AutoMoq](https://github.com/dariusz-wozniak/AutoMoq) (fork)<br />[Bogus](https://github.com/bchavez/Bogus)<br />[AutoFixture](https://github.com/AutoFixture/AutoFixture)   |   |
-|  Unit tests (multiple target frameworks) |
 |  Integration tests |  [Flurl](https://flurl.dev/)<br />[ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader) |  - Excel read tests<br />- REST API tests |
 | Approval tests  | [Verify](https://github.com/VerifyTests/Verify)  |   Optional:<br />- Install diff tray tool (Windows): `dotnet tool install -g DiffEngineTray`<br />- Run: `diffenginetray`
 | Load tests | [NBomber](https://nbomber.com/) | Reports are under `\bin\[Debug\|Release]\net6.0\`
